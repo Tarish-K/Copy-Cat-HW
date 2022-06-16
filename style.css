@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+}
+
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > a{
+    padding: 0 8px;
+
+}
+
+.header-img:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+h1{
+    font-size: 6em;
+}
+
+.my-input-container{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    height: 38px;
+}
+
+button{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+footer{
+    background-color: rgb(168, 154, 154);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
